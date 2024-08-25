@@ -70,9 +70,9 @@ app.post("/bfhl", (req, res) => {
     // Construct the response
     const response = {
       is_success: true,
-      user_id: "john_doe_17091999",
-      email: "john@xyz.com",
-      roll_number: "ABCD123",
+      user_id: "swetabh_shreyam_27022003",
+      email: "swetabh.shreyam2021@vitstudent.ac.in",
+      roll_number: "21BIT0278",
       numbers: numbers,
       alphabets: alphabets,
       highest_lowercase_alphabet: highestLowercaseAlphabet
