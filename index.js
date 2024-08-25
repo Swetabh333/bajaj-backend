@@ -4,11 +4,11 @@ import cors from "cors";
 const app = express();
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL,
+  origin: "*",
   optionsSuccessStatus: 200,
   methods: "GET,POST,PUT,PATCH,DELETE",
   credentials: true,
-  allowHeaders: "Origin, X-Requested-With, Content-Type, Accept",
+  allowedHeaders: "Origin, X-Requested-With, Content-Type, Accept",
 };
 app.use(express.json());
 app.use(cors(corsOptions));
